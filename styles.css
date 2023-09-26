@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.container {
+  width: 327px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  color: #242742;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.benefits {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.item {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #242742;
+}
+
+input {
+  width: 327px;
+  height: 56px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #242742;
+  opacity: 0.5;
+}
+
+button {
+  background-color: #242742;
+  color: #fff;
+  width: 327px;
+  height: 56px;
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-color: #242742;
+  }
+}
